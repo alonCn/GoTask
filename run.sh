@@ -1,13 +1,13 @@
 #!/bin/bash
 # @Author: haodaquan
 # @Date:   2017-06-29 17:44:45
-# @Last Modified by:   haodaquan
-# @Last Modified time: 2017-06-29 17:44:45
+# @Last Modified by:   alon
+# @Last Modified time: 2018-08-22 14:44:45
 
 
 case $1 in 
 	start)
-		nohup ./PPGo_Job 2>&1 >> info.log 2>&1 /dev/null &
+		nohup ./GoTask 2>&1 >> info.log 2>&1 /dev/null &
 		echo "服务已启动..."
 		sleep 1
 	;;
@@ -17,9 +17,9 @@ case $1 in
 		sleep 1
 	;;
 	restart)
-		killall PPGo_Job
+		killall GoTask
 		sleep 1
-		nohup ./PPGo_Job 2>&1 >> info.log 2>&1 /dev/null &
+		nohup ./GoTask 2>&1 >> info.log 2>&1 /dev/null &
 		echo "服务已重启..."
 		sleep 1
 	;;
