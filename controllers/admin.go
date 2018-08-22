@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/astaxie/beego"
-	"github.com/george518/PPGo_Job/libs"
-	"github.com/george518/PPGo_Job/models"
+	"github.com/alonCn/GoTask/libs"
+	"github.com/alonCn/GoTask/models"
 )
 
 type AdminController struct {

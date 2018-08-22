@@ -18,10 +18,10 @@ PPGo_Job定时任务管理系统
 效果展示
 ----
 任务界面<br/>
-![github](https://github.com/george518/PPGo_Job/blob/master/V1/static/images/task.png?raw=true "github")
+![github](https://github.com/alonCn/GoTask/blob/master/V1/static/images/task.png?raw=true "github")
 <br/><br/>
 添加服务器界面<br/>
-![github](https://github.com/george518/PPGo_Job/blob/master/V1/static/images/server.png?raw=true "github")
+![github](https://github.com/alonCn/GoTask/blob/master/V1/static/images/server.png?raw=true "github")
 <br/><br/>
 
 安装方法    
@@ -29,7 +29,7 @@ PPGo_Job定时任务管理系统
 
 方法一、 编译安装
 
-- go get github.com/george518/PPGo_Job
+- go get github.com/alonCn/GoTask
 - 创建mysql数据库，并将ppgo_job.sql导入
 - 修改config 配置数据库
 - 运行 go build
@@ -39,14 +39,14 @@ PPGo_Job定时任务管理系统
 
 linux
 
-- 进入 https://github.com/george518/PPGo_Job/releases
+- 进入 https://github.com/alonCn/GoTask/releases
 - 下载 ppgo_job-linux-1.2.1.zip 并解压
 - 进入文件夹，设置好数据库(创建数据库，导入ppgo_job.sql)和配置文件(conf/app.conf)
 - 运行 ./run.sh start|stop
 
 mac
 
-- 进入https://github.com/george518/PPGo_Job/releases
+- 进入https://github.com/alonCn/GoTask/releases
 - 下载 ppgo_job-mac-1.2.1.zip 并解压
 - 进入文件夹，设置好数据库(创建数据库，导入ppgo_job.sql)和配置文件(conf/app.conf)
 - 运行 ./run.sh start|stop

@@ -9,9 +9,9 @@ package main
 
 import (
 	"github.com/astaxie/beego"
-	"github.com/george518/PPGo_Job/jobs"
-	"github.com/george518/PPGo_Job/models"
-	_ "github.com/george518/PPGo_Job/routers"
+	"github.com/alonCn/GoTask/jobs"
+	"github.com/alonCn/GoTask/models"
+	_ "github.com/alonCn/GoTask/routers"
 	"time"
 )
 

@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	"github.com/astaxie/beego"
-	"github.com/george518/PPGo_Job/models"
-	"github.com/george518/PPGo_Job/notify"
+	"github.com/alonCn/GoTask/models"
+	"github.com/alonCn/GoTask/notify"
 	"golang.org/x/crypto/ssh"
 )
 

@@ -8,13 +8,13 @@ PPGo_Job是一款定时任务可视化的、多人多权限的管理系统，采
 已经用于生产环境。
 
 码云地址：https://gitee.com/georgehao/PPGo_Job
-Github地址:https://github.com/george518/PPGo_Job
+Github地址:https://github.com/alonCn/GoTask
 
 文档地址：http://www.haodaquan.com/topics/1###
-Wiki:https://github.com/george518/PPGo_Job/wiki
+Wiki:https://github.com/alonCn/GoTask/wiki
 
 
-V1.x版本是一个简单的定时任务管理系统，进入V1.0 ：https://github.com/george518/PPGo_Job/releases/tag/v1.2.1
+V1.x版本是一个简单的定时任务管理系统，进入V1.0 ：https://github.com/alonCn/GoTask/releases/tag/v1.2.1
 相对于V1.x版本，V2.0新增以下功能和特性：
 
 - 1、全新UI,基于LayUI2.3构建全新页面，后端模板手工搭建，让操作更加人性化。后台模板地址：https://github.com/george518/PP_admin-template
@@ -33,13 +33,13 @@ V1.x版本是一个简单的定时任务管理系统，进入V1.0 ：https://git
 
 先看效果
 ----
-![image](https://github.com/george518/PPGo_Job/blob/master/static/imgs/1-index.png?raw=true "github")
-![image](https://github.com/george518/PPGo_Job/blob/master/static/imgs/2-task.png?raw=true "github")
-![image](https://github.com/george518/PPGo_Job/blob/master/static/imgs/3-task_detail.png?raw=true "github")
-![image](https://github.com/george518/PPGo_Job/blob/master/static/imgs/10-auth.png?raw=true "github")
-![image](https://github.com/george518/PPGo_Job/blob/master/static/imgs/11-role.png?raw=true "github")
-![image](https://github.com/george518/PPGo_Job/blob/master/static/imgs/12-role_add.png?raw=true "github")
-![image](https://github.com/george518/PPGo_Job/blob/master/static/imgs/15.log.png?raw=true "github")
+![image](https://github.com/alonCn/GoTask/blob/master/static/imgs/1-index.png?raw=true "github")
+![image](https://github.com/alonCn/GoTask/blob/master/static/imgs/2-task.png?raw=true "github")
+![image](https://github.com/alonCn/GoTask/blob/master/static/imgs/3-task_detail.png?raw=true "github")
+![image](https://github.com/alonCn/GoTask/blob/master/static/imgs/10-auth.png?raw=true "github")
+![image](https://github.com/alonCn/GoTask/blob/master/static/imgs/11-role.png?raw=true "github")
+![image](https://github.com/alonCn/GoTask/blob/master/static/imgs/12-role_add.png?raw=true "github")
+![image](https://github.com/alonCn/GoTask/blob/master/static/imgs/15.log.png?raw=true "github")
 
 
 安装方法
@@ -47,7 +47,7 @@ V1.x版本是一个简单的定时任务管理系统，进入V1.0 ：https://git
 
 方法一、 编译安装
 
-- go get github.com/george518/PPGo_Job
+- go get github.com/alonCn/GoTask
 - 创建mysql数据库，并将ppgo_job2.sql导入
 - 修改config 配置数据库
 - 运行 go build
@@ -57,14 +57,14 @@ V1.x版本是一个简单的定时任务管理系统，进入V1.0 ：https://git
 
 linux
 
-- 进入 https://github.com/george518/PPGo_Job/releases
+- 进入 https://github.com/alonCn/GoTask/releases
 - 下载 ppgo_job-linux-2.1.0.zip 并解压
 - 进入文件夹，设置好数据库(创建数据库，导入ppgo_job2.sql)和配置文件(conf/app.conf)
 - 运行 ./run.sh start|stop
 
 mac
 
-- 进入https://github.com/george518/PPGo_Job/releases
+- 进入https://github.com/alonCn/GoTask/releases
 - 下载 ppgo_job-mac-2.1.0.zip 并解压
 - 进入文件夹，设置好数据库(创建数据库，导入ppgo_job2.sql)和配置文件(conf/app.conf)
 - 运行 ./run.sh start|stop
